@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta sharset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title> Silvia Magaly Miranda Quintanilla</title>
+</head>
+
+<Body>
+    <div class="utama">
+        <p>Hola solo quiro desirte que heres la niña mas hermosa que he conocido Silvia Magaly Miranda Quintanilla.</p>
+        <div class="pm">
+            <span style="left: 10%;">💖</span>
+            <span style="left: 20%;">💖</span>
+            <span style="left: 30%;">💖</span>
+            <span style="left: 40%;">💖</span>
+            <span style="left: 50%;">💖</span>
+            <span style="left: 60%;">💖</span>
+            <span style="left: 70%;">💖</span>
+            <span style="left: 80%;">💖</span>
+            <span style="left: 90%;">💖</span>
+        </div>
+    </div>
+</Body>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #ffc0cb;
+        font-family: pacifico;
+        overflow: hidden;
+    }
+    
+    .utama {
+        text-align: center;
+        position: relative;
+    }
+    
+    h1 {
+        font-size: 4rem;
+        color: #ff6f;
+        text-shadow: 0 0 10px #ff6f61, 0 0 20px #ff6f61, 0 0 30px #ff6f61;
+        animation: glow 2s infinite alternate;
+    }
+    
+    p {
+        font-size: 5rem;
+        color: #ff6f61;
+        margin-top: 40px;
+        animation: float 3s ease-in-out infinite;
+    }
+    
+    .pm {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+    }
+    
+    .pm span {
+        position: absolute;
+        color: #ff6f61;
+        font-size: 2rem;
+        animation: fall 5s linear infinite;
+    }
+    
+    @keyframes glow {
+        0% {
+            text-shadow: 0 0 10px #ff6f61, 0 0 20px #ff6f61, 0 0 30px #ff6f61;
+        }
+        100% {
+            text-shadow: 0 0 20px #ff6f61, 0 0 40px #ff6f61, 0 0 60px #ff6f61;
+        }
+    }
+    
+    @keyframes float {
+        0%,
+        100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(-10%);
+        }
+    }
+    
+    @keyframes fall {
+        0% {
+            transform: translateY(-10%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateY(110);
+        }
+    }
+</style>
+
+</html>
